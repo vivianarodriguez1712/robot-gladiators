@@ -124,7 +124,7 @@ var startGame = function() {
     if (playerInfo.health > 0) {
       // let player know what round they are in, remember that arrays start at 0 so it needs to have 1 added to it
       window.alert('Welcome to Robot Gladiators! Round ' + (i + 1));
-      debugger;
+      
       // pick new enemy to fight based on the index of the enemyNames array
       var pickedEnemyObj = enemyInfo[i];
       // reset enemyHealth before starting new fight
